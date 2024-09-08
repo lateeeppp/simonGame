@@ -33,6 +33,7 @@ h1 {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+  cursonr: pointer;
 }
 
 .start {
@@ -47,6 +48,7 @@ h1 {
   color: black;
   text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
   justify-self: center;
+  cursor: pointer;
 }
 
 .start > a {
