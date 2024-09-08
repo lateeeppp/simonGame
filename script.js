@@ -81,7 +81,7 @@ function cheackAnswer(currentLevel) {
 function startOver() {
   $("#level-title").text(`Your High Level is ${level - 1}`);
   $(".start").show("fast");
-  $(".start a").text("Restart");
+  $(".start").html("<a href =''>Restart</a>");
   $(".start a").attr("href", "");
   $(".row").hide("fast");
   level = 0;
